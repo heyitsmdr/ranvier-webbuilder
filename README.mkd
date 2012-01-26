@@ -1,0 +1,11 @@
+## Ranvier WebBuilder
+This plugin gives you a web-based content creator for Ranvier instead of using the in-game OLC
+
+
+### Installing
+Go into your install of Ranvier and go into the `plugins/` directory
+
+	git clone git@github.com:shawncplus/ranvier-webbuilder.git
+
+That's it, next time you start up your server you'll be able to visit `localhost:8080` and see an editor.
+Currently there is only support for editing rooms by visiting `localhost:8080/?area=areaname` (defaulting to 'test')
